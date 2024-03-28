@@ -39,6 +39,7 @@ export default function RootLayout({
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1306347518895292"
             crossOrigin="anonymous"
+            strategy="lazyOnload"
           ></Script>
           <ins
             className="adsbygoogle"
@@ -48,7 +49,13 @@ export default function RootLayout({
             data-ad-format="auto"
             data-full-width-responsive="true"
           ></ins>
-          <Script>(adsbygoogle = window.adsbygoogle || []).push({});</Script>
+          {/* <Script>(adsbygoogle = window.adsbygoogle || []).push({});</Script> */}
+          <Script
+            dangerouslySetInnerHTML={{
+              __html:
+                "(window.adsbygoogle = window.adsbygoogle || []).push({});",
+            }}
+          />
         </body>
       </NextIntlClientProvider>
     </html>

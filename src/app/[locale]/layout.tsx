@@ -35,27 +35,29 @@ export default function RootLayout({
             <LocaleSwitcher />
             {children}
           </AntdRegistry>
-          <Script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1306347518895292"
-            crossOrigin="anonymous"
-            strategy="lazyOnload"
-          ></Script>
-          <ins
-            className="adsbygoogle"
-            style={{ display: "block !importantack" }}
-            data-ad-client="ca-pub-1306347518895292"
-            data-ad-slot="1702569026"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-          {/* <Script>(adsbygoogle = window.adsbygoogle || []).push({});</Script> */}
-          <Script
-            dangerouslySetInnerHTML={{
-              __html:
-                "(window.adsbygoogle = window.adsbygoogle || []).push({});",
-            }}
-          />
+          <div className="w-40 h-96">
+            <Script
+              async
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1306347518895292"
+              crossOrigin="anonymous"
+              strategy="lazyOnload"
+            />
+            <ins
+              className="adsbygoogle"
+              style={{ display: "block !importantack" }}
+              data-ad-client="ca-pub-1306347518895292"
+              data-ad-slot="1702569026"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+            {/* <Script>(adsbygoogle = window.adsbygoogle || []).push({});</Script> */}
+            <Script
+              dangerouslySetInnerHTML={{
+                __html:
+                  "(window.adsbygoogle = window.adsbygoogle || []).push({});",
+              }}
+            />
+          </div>
         </body>
       </NextIntlClientProvider>
     </html>

@@ -1,0 +1,14 @@
+{
+  "Home": {
+    "title": "Hello world!"
+  },
+  "Template": {
+    "now": "Now",
+    "hourly": "Hourly",
+    "sevenDays": "7 days",
+    "meteoGram": "Meteo Gram",
+    "satellite": "Satellite",
+    "maps": "Maps",
+    "history": "History"
+  }
+}

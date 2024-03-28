@@ -1,0 +1,14 @@
+{
+  "Home": {
+    "title": "Xin chào!"
+  },
+  "Template": {
+    "now": "HIện tại",
+    "hourly": "Hằng ngày",
+    "sevenDays": "7 ngày",
+    "meteoGram": "Meteo Gram",
+    "satellite": "Vệ tinh",
+    "maps": "Bản đồ",
+    "history": "Lịch sử"
+  }
+}

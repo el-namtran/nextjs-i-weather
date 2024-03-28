@@ -35,21 +35,24 @@ export default function RootLayout({
             <LocaleSwitcher />
             {children}
           </AntdRegistry>
+
           <div className="w-40 h-96">
             <Script
               async
-              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1306347518895292"
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3958818287602115"
               crossOrigin="anonymous"
               strategy="lazyOnload"
             />
             <ins
               className="adsbygoogle"
               style={{ display: "block !important" }}
-              data-ad-client="ca-pub-1306347518895292"
-              data-ad-slot="1702569026"
+              data-ad-client="ca-pub-3958818287602115"
+              data-ad-slot="9449396794"
               data-ad-format="auto"
               data-full-width-responsive="true"
             ></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
             <Script
               dangerouslySetInnerHTML={{
                 __html:

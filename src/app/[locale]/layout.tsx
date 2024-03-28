@@ -45,7 +45,7 @@ export default function RootLayout({
             />
             <ins
               className="adsbygoogle"
-              style={{ display: "block !important" }}
+              style={{ display: "block !important", width: "100px", height: "200px"}}
               data-ad-client="ca-pub-3958818287602115"
               data-ad-slot="9449396794"
               data-ad-format="auto"
